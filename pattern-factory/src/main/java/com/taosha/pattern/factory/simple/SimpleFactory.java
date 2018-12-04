@@ -16,7 +16,7 @@ import com.taosha.pattern.factory.enums.MilkEnum;
 public class SimpleFactory {
 
     /**
-     * 每次新加产品时，都需要添加
+     * 每次新加产品时，都需要添加 不符合开闭原则
      */
     public Milk getMilk(Enum enums){
         switch ((MilkEnum)enums) {
