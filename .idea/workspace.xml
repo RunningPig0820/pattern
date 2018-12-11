@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af420ebd-317e-495d-b27f-d882f2577e45" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/register/BeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/lazy/LazyThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/lazy/LazyThree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,19 +23,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeLunSunFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-factory/src/main/java/com/taosha/pattern/factory/abstr/TeLunSunFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#412#413#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +69,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LazyThree.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LazyThree.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/lazy/LazyThree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="47" column="45" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="45" />
+            <state relative-caret-position="320">
+              <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BeanFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/register/BeanFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -202,7 +198,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+    <option name="x" value="211" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="820" />
@@ -277,6 +273,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="singleton" type="462c0819:PsiDirectoryNode" />
               <item name="lazy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -460,7 +466,7 @@
       <workItem from="1544009756567" duration="4554000" />
       <workItem from="1544101634219" duration="2120000" />
       <workItem from="1544170704376" duration="37000" />
-      <workItem from="1544533451613" duration="267000" />
+      <workItem from="1544533451613" duration="539000" />
     </task>
     <task id="LOCAL-00001" summary="创建设计模式git项目">
       <created>1543889139203</created>
@@ -484,10 +490,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16665000" />
+    <option name="totallyTimeSpent" value="16937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="23" width="1440" height="820" extended-state="0" />
+    <frame x="211" y="23" width="1440" height="820" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -501,10 +507,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3493976" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.10391566" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.197787" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.30290458" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2446352" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -559,9 +565,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="创建设计模式git项目" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pattern-singleton/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern-factory/src/test/java/com/taosha/pattern/factory/abstr/AbstractFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -923,8 +926,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/lazy/LazyThree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="47" column="45" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="45" />
+        <state relative-caret-position="320">
+          <caret line="49" column="31" lean-forward="true" selection-start-line="49" selection-start-column="31" selection-end-line="49" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-singleton/src/main/java/com/tasha/patter/singleton/register/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
