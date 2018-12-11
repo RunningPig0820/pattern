@@ -27,6 +27,11 @@ public class LazyThree {
     //如果没使用的话，内部类是不加载的
     private boolean initialized = false;
 
+    //默认不加载
+    private static class LazyHolder{
+        private static final LazyThree LAZY = new LazyThree();
+    }
+
     private LazyThree(){
        synchronized (LazyThree.class){
            if(initialized == false){
@@ -45,9 +50,4 @@ public class LazyThree {
         return LazyHolder.LAZY;
     }
 
-
-    //默认不加载
-    private static class LazyHolder{
-        private static final LazyThree LAZY = new LazyThree();
-    }
 }
