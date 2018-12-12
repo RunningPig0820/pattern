@@ -12,6 +12,7 @@
     <modules>
         <module>pattern-factory</module>
         <module>pattern-singleton</module>
+        <module>pattern-proxy</module>
     </modules>
 
     <properties>
