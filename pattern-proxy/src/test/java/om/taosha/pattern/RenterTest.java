@@ -31,6 +31,8 @@ public class RenterTest {
         //说明代理类和被代理类不是同一个类
         Assert.assertNotSame(renter, person);
 
+        System.out.println(person.getClass());
+
         //通过反编译工具可以查看源代码
         byte [] bytes = ProxyGenerator.generateProxyClass("$Proxy0",new Class[]{Person.class});
         FileOutputStream os = new FileOutputStream("$Proxy0.class");

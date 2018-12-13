@@ -9,7 +9,7 @@ import com.taosha.pattern.proxy.common.Person;
  * @Date 2018/12/12 14:16
  * @Version 1.0
  **/
-public class CglibRenter implements Person {
+public class CglibRenter  {
 
     public void rentHouse() {
         System.out.println("我想找个一室一厅一卫的房子");
