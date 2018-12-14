@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pattern-factory" />
+        <module name="pattern-observer" />
         <module name="pattern-proxy" />
         <module name="pattern-singleton" />
       </profile>

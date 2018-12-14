@@ -30,6 +30,7 @@ public class CglibHouseCarIntermediary implements MethodInterceptor {
 
     }
 
+    @Override
     public Object intercept(Object o, Method method, Object[] objects, MethodProxy methodProxy) throws Throwable {
         //业务的增强
         System.out.println("从房源数据库中查找匹配的房子...");
