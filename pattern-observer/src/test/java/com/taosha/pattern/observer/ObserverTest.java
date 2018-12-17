@@ -31,6 +31,9 @@ public class ObserverTest {
 
         //李四取消关注
         listener.removeObserver(person1);
+        System.out.println("李四取消关注\n");
+
+
         subject.sendBlog("博客 - 观察者模式");
     }
 }
