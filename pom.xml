@@ -15,6 +15,7 @@
         <module>pattern-proxy</module>
         <module>pattern-observer</module>
         <module>pattern-adapter</module>
+        <module>pattern-decorator</module>
     </modules>
 
     <properties>

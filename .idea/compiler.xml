@@ -7,11 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pattern-adapter" />
+        <module name="pattern-decorator" />
         <module name="pattern-factory" />
         <module name="pattern-observer" />
         <module name="pattern-proxy" />
         <module name="pattern-singleton" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
