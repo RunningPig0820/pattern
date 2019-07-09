@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pattern-adapter" />
         <module name="pattern-decorator" />
+        <module name="pattern-delegate" />
         <module name="pattern-factory" />
         <module name="pattern-observer" />
         <module name="pattern-proxy" />

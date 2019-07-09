@@ -7,16 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af420ebd-317e-495d-b27f-d882f2577e45" name="Default" comment="创建设计模式git项目">
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/ResultMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/SiginServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/SiginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pattern-delegate/src/test/java/com/taosha/pattern/DelegateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,6 +26,7 @@
     <ignored path="$PROJECT_DIR$/pattern-observer/target/" />
     <ignored path="$PROJECT_DIR$/pattern-adapter/target/" />
     <ignored path="$PROJECT_DIR$/pattern-decorator/target/" />
+    <ignored path="$PROJECT_DIR$/pattern-delegate/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,67 +34,28 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="pattern" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AdapterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-adapter/src/test/java/com.taosha.pattern.adapter/AdapterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="819">
-                <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-decorator/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Member.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/Member.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResultMsg.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/ResultMsg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SiginService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/SiginService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+            <state relative-caret-position="462">
+              <caret line="22" column="1" selection-start-line="11" selection-end-line="22" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegistForThirdService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="32" column="1" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,28 +63,10 @@
       <file leaf-file-name="SiginServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/SiginServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
+            <state relative-caret-position="126">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegistForThirdService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#789#790#0" expanded="true" />
-                <element signature="e#824#825#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +75,8 @@
       <file leaf-file-name="DecoratorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="32" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="32" />
+            <state relative-caret-position="126">
+              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,13 +84,70 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RegistForWeChat.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pattern-adapter/src/main/java/com/taosha/pattern/adapter/adapter/RegistForWeChat.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="Target.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Target.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="25" column="1" selection-start-line="13" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="189">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Leader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Leader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="335">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#267#282#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="e#527#528#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelegateTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/src/test/java/com/taosha/pattern/DelegateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#242#243#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TargetA.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetA.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="13" selection-end-column="1" />
+              <folding>
+                <element signature="e#232#233#0" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -175,6 +175,8 @@
       <find>MyProxy</find>
       <find>AllArgsConstructor</find>
       <find>List&lt;Method&gt;</find>
+      <find>skip</find>
+      <find>InputStream</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -199,11 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/staticProxy/Renter.java" />
-        <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/staticproxy/Renter.java" />
-        <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/staticproxy/HouseIntermediary.kt" />
-        <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/staticproxy/HouseIntermediary.java" />
-        <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/common/Renter.java" />
         <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/cglib/Renter.java" />
         <option value="$PROJECT_DIR$/pattern-proxy/pom.xml" />
         <option value="$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/cglib/MethodInterceptor.java" />
@@ -250,6 +247,11 @@
         <option value="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/SigninForThirdService.java" />
         <option value="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java" />
         <option value="$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java" />
+        <option value="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Targer.java" />
+        <option value="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetB.java" />
+        <option value="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetA.java" />
+        <option value="$PROJECT_DIR$/pattern-delegate/src/test/java/com/taosha/pattern/DelegateTest.java" />
+        <option value="$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Leader.java" />
       </list>
     </option>
   </component>
@@ -275,9 +277,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="593" />
-    <option name="y" value="33" />
-    <option name="width" value="1245" />
+    <option name="x" value="130" />
+    <option name="y" value="53" />
+    <option name="width" value="551" />
     <option name="height" value="820" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -287,7 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -298,80 +299,49 @@
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="delegate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -379,22 +349,24 @@
             <path>
               <item name="pattern" type="b2602c69:ProjectViewProjectNode" />
               <item name="pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="pattern-decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern-delegate" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="pattern" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GO_FMT" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="BufferedInputStream&#9;PSI&#9;JAVA://java.io.BufferedInputStream&#10;InputStream&#9;PSI&#9;JAVA://java.io.InputStream&#10;FileInpu&#9;PSI&#9;JAVA://java.io.FileInputStream" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
@@ -407,9 +379,12 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/pattern-adapter/src/test/java" />
-      <recent name="$PROJECT_DIR$/pattern-adapter/src/test" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.taosha.pattern.delegate" />
+      <recent name="com.taosha.pattern.adapter" />
+      <recent name="com.taosha.pattern.proxy.myCblib" />
+      <recent name="com.taosha.pattern.proxy.cglib" />
+      <recent name="com.taosha.pattern.factory.enums" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common" />
@@ -424,12 +399,9 @@
       <recent name="com.taosha.pattern.proxy.staticProxy" />
       <recent name="com.taosha.pattern.factory.abstr" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.taosha.pattern.adapter" />
-      <recent name="com.taosha.pattern.proxy.myCblib" />
-      <recent name="com.taosha.pattern.proxy.cglib" />
-      <recent name="com.taosha.pattern.factory.enums" />
-      <recent name="com.taosha.pattern.factory.simple" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pattern-adapter/src/test/java" />
+      <recent name="$PROJECT_DIR$/pattern-adapter/src/test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -644,7 +616,8 @@
       <workItem from="1545034858649" duration="5050000" />
       <workItem from="1545289512375" duration="1241000" />
       <workItem from="1545293372497" duration="4000" />
-      <workItem from="1545298459450" duration="3754000" />
+      <workItem from="1545298459450" duration="5637000" />
+      <workItem from="1545356615010" duration="2775000" />
     </task>
     <task id="LOCAL-00001" summary="创建设计模式git项目">
       <created>1543889139203</created>
@@ -689,11 +662,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74196000" />
+    <option name="totallyTimeSpent" value="78854000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="593" y="33" width="1245" height="820" extended-state="0" />
-    <editor active="true" />
+    <frame x="130" y="53" width="551" height="820" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -704,20 +676,20 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20055325" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.10391566" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.406639" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20055325" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.118948825" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.68049794" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81946623" visible="true" weight="0.58939093" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info id="Structure" order="1" sideWeight="0.3195021" side_tool="true" visible="true" weight="0.0" />
+      <window_info id="Structure" order="1" sideWeight="0.18053375" side_tool="true" visible="true" weight="0.58939093" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" sideWeight="0.3195021" side_tool="true" weight="0.21363258" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.012066365" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -801,111 +773,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/reflect/ConstructorAccessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Constructor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="417" column="52" selection-start-line="417" selection-start-column="33" selection-end-line="417" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/InvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/jdk/HouseIntermediary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="59" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/reflect/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="232" column="36" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/common/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/File.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="1032" column="19" selection-start-line="1032" selection-start-column="19" selection-end-line="1032" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="2992" column="25" selection-start-line="2992" selection-start-column="25" selection-end-line="2992" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/$Proxy0.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/myCblib/MyInvocationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/myCblib/MyProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="777">
-          <caret line="44" column="52" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-proxy/src/main/java/com/taosha/pattern/proxy/myCblib/MyClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-observer/pattern-observer.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-factory/src/test/java/com/taosha/pattern/factory/abstr/AbstractFactoryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pattern-proxy/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -1051,9 +922,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
           <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1061,9 +929,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
           <caret line="19" selection-start-line="13" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1071,9 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="25" column="1" selection-start-line="13" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,9 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1102,67 +961,189 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern-decorator/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state>
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/ResultMsg.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/FileDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/FileInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/httpserver/ChunkedInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="10" column="52" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar!/sun/net/httpserver/LeftOverInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/Closeable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/BufferedInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3633">
+          <caret line="198" column="13" selection-start-line="198" selection-start-column="8" selection-end-line="198" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5951#5952#0" expanded="true" />
+            <element signature="e#5996#5997#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/io/FilterInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+          <folding>
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1421#1422#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/Member.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="294">
+          <caret line="14" column="1" selection-start-line="8" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/SiginServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/common/ResultMsg.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="231">
+          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/SiginService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="462">
+          <caret line="22" column="1" selection-start-line="11" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java">
+    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="32" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="32" />
+        <state relative-caret-position="567">
+          <caret line="32" column="1" selection-start-line="12" selection-end-line="32" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/RegistForThirdService.java">
+    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/main/java/com/taosha/pattern/decorator/service/Impl/SiginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="126">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#789#790#0" expanded="true" />
-            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-decorator/src/test/java/com/taosha/patter/decorator/DecoratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/TargetA.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/main/java/com/taosha/pattern/delegate/Leader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#282#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#527#528#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pattern-delegate/src/test/java/com/taosha/pattern/DelegateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#242#243#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1219,7 +1200,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>pattern-adapter</last-edited>
+          <last-edited>pattern-delegate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

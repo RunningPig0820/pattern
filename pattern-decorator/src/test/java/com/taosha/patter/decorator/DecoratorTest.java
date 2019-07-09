@@ -1,9 +1,7 @@
 package com.taosha.patter.decorator;
 
-import com.taosha.pattern.decorator.common.ResultMsg;
 import com.taosha.pattern.decorator.service.Impl.RegistForThirdService;
 import com.taosha.pattern.decorator.service.Impl.SiginServiceImpl;
-import com.taosha.pattern.decorator.service.SiginService;
 import org.junit.Test;
 
 /**
