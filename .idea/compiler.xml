@@ -17,6 +17,14 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="demo" target="1.8" />
+      <module name="pattern" target="1.5" />
+      <module name="pattern-adapter" target="1.5" />
+      <module name="pattern-decorator" target="1.5" />
+      <module name="pattern-delegate" target="1.5" />
+      <module name="pattern-factory" target="1.8" />
+      <module name="pattern-observer" target="1.5" />
+      <module name="pattern-proxy" target="6" />
+      <module name="pattern-singleton" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pattern.iml" filepath="$PROJECT_DIR$/pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-adapter/pattern-adapter.iml" filepath="$PROJECT_DIR$/pattern-adapter/pattern-adapter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" filepath="$PROJECT_DIR$/pattern-decorator/pattern-decorator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" filepath="$PROJECT_DIR$/pattern-delegate/pattern-delegate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-factory/pattern-factory.iml" filepath="$PROJECT_DIR$/pattern-factory/pattern-factory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-observer/pattern-observer.iml" filepath="$PROJECT_DIR$/pattern-observer/pattern-observer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" filepath="$PROJECT_DIR$/pattern-proxy/pattern-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" filepath="$PROJECT_DIR$/pattern-singleton/pattern-singleton.iml" />
+    </modules>
+  </component>
+</project>
